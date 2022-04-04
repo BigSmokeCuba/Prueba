@@ -1,8 +1,8 @@
 {
   "name": "Moodle Uploader",
   "description": "Con este Bot se puede subir contenido desde internet hacia el almamcenamiento de Moolde",
-  "website": "https://github.com/ tu repositorio",
-  "repository": "https://github.com/ tu repositorio",
+  "website": "https://github.com/BigSmoke/Prueba",
+  "repository": "https://github.com/BigSmoke/Prueba",
   "stack": "heroku-20",
   "env": {
     "API_ID": {
@@ -19,7 +19,7 @@
     },
     "AUTH_USERS": {
       "description": "ID de los usuarios autorizados separados por un espacio",
-      "value": "1935578948"
+      "value": "811906873"
     },
     "SERVER": {
       "description": "Direccion principal del servidor",
