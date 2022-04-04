@@ -450,13 +450,13 @@ def init():
         bot = TelegramClient( 
             'bot', api_id=api_id, api_hash=api_hash).start(bot_token=bot_token) 
 
-        bot.send_message(1935578948, 'Bot Activo😎!!')
+        bot.send_message(811906873, 'Bot Activo😎!!')
         action = 0
         actual_file = ''
 
         @bot.on(events.NewMessage())
         async def process(ev: events.NewMessage.Event):
-                if str(ev.message.chat_id) != "1935578948":
+                if str(ev.message.chat_id) != "811906873":
                     return
                 text = ev.message.text
                 if text == '/t':
